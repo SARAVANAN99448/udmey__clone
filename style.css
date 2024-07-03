@@ -92,6 +92,15 @@ body {
     background-color: blueviolet;
     padding: 10px;
     border-radius: 30px;
+    border: solid black 1px;
+}
+.categaries p:hover{
+    transition: 1s;
+    background-color: white;
+    border: solid black 1px;
+    color: black;
+    cursor: pointer;
+
 }
 
 .section__img img {
@@ -174,4 +183,30 @@ body {
     position: absolute;
     top: 30%;
     left: 10%;
+    animation-name: zoom;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
