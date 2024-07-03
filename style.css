@@ -208,7 +208,7 @@ body {
         font-size: 10px;
     }
 } 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .course-card{
         flex-basis: 40%;
     }
@@ -222,6 +222,14 @@ body {
     top:10%
 }
 }
+
+
+
+
+
+
+
+
 
 
 
